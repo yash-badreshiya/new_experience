@@ -78,7 +78,7 @@ class _LoginPageState extends State<LoginPage> {
                         if (value!.isEmpty) {
                           return "Password Cannot Be Empty";
                         } else if (value.length < 8) {
-                          return "Password Length Should Be 8";
+                          return "Password Length Should Be Eight";
                         }
                         return null;
                       },
