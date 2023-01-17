@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: MyThemes.lighttheme(context),
-      // darkTheme: MyThemes.darktheme(context),
+      darkTheme: MyThemes.darktheme(context),
       initialRoute: Myroutes.homeRoute,
       routes: {
         "/": (context) => const LoginPage(),
